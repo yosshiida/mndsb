@@ -4,7 +4,8 @@ Data for "Three-dimensional Hydrodynamics Simulations of Pre-Collapse Shell
 Burning in the Si and O-rich Layers",
 by Yoshida, T., Takiwaki, T., Kotake, K., Takahashi K., Nakamura, K, Umeda, H.
 
-2020,4,8.
+Ver 2.0: 2020,12,17.
+Ver 1.0: 2020, 4, 8.
 
 - README.txt
   This file.
@@ -14,7 +15,7 @@ by Yoshida, T., Takiwaki, T., Kotake, K., Takahashi K., Nakamura, K, Umeda, H.
   A program to make turbulent Mach number distribution from the SSH
   decomposition compnents a_nlm.
   Requested input data:
-    - tab1.txt or tab2.txt or tab3.txt in Yoshida et al. (2020)
+    - datafile2.txt or datafile3.txt or datafile4.txt in Yoshida et al. (2020)
     - The coordinate data of the convective region.
       The requested format is written in this program.
 

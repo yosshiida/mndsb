@@ -2,6 +2,8 @@ CCCCCC##################################################################
 C     sshctomach.f
 C     A program to make Mach number distribution from SSH components.
 C     
+C     Ver. 2.0: in 2020.12.17th.
+C               The names of the input files have been changed to ApJ format.
 C     Ver. 1.0; Made by Takashi Yoshida in 2020, 3, 29th.
 C     
 C     Please prepare the input data of the range of a convective region
@@ -160,13 +162,13 @@ C     Allocation and input of a_nlm,xk_nl,xn_nl
       amrenlm(0:nend,0:lend,-lend:lend) = 0d0
       amimnlm(0:nend,0:lend,-lend:lend) = 0d0
       if(mode .eq. 1) then
-         open(11,file='tab1.txt')
+         open(11,file='datafile2.txt')
       elseif(mode .eq. 2) then
-         open(11,file='tab2.txt')
+         open(11,file='datafile3.txt')
       else
-         open(11,file='tab3.txt')
+         open(11,file='datafile4.txt')
       endif
-      do n = 1,nend+14
+      do n = 1,nend+15
          read(11,*)
       enddo
       do l = 0, lend
